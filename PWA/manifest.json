@@ -1,0 +1,63 @@
+{
+  "short_name": "Kpuc",
+  "name": "Kpuc's personal portfolio",
+  "icons": [
+    {
+      "src": "/images/maskable_icon_x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/maskable_icon_x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "shortcuts": [
+    {
+      "name": "Homepage",
+      "short_name": "Home",
+      "description": "Portfolio homepage",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/images/maskable_icon_x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "About me",
+      "short_name": "About",
+      "description": "See information about me",
+      "url": "/aboutme.html",
+      "icons": [
+        {
+          "src": "/images/maskable_icon_x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact me",
+      "short_name": "Contact",
+      "description": "Contact me using social media",
+      "url": "/contact.html",
+      "icons": [
+        {
+          "src": "/images/maskable_icon_x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "background_color": "#ff3300",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/",
+  "theme_color": "#404040",
+  "description": "My personal portfolio."
+}

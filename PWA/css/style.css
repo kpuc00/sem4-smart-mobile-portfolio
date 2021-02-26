@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    background: #a6a6a6 url(../images/background.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+    min-width: 620px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #404040;
+    font-family: 'Barrio', cursive;
+    min-width: 620px;
+    margin-bottom: 1.5em;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #ff3300;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #404040;
+    font-family: 'Barrio', cursive;
+    margin: 0;
+}
+
+.dropbtn-active {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #ff3300;
+    font-family: 'Barrio', cursive;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #404040;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ff3300;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.content {
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 2.5rem;
+    border-radius: 30px;
+    max-width: 960px;
+    min-height: 80vh;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e6e6e6;
+    box-shadow: 7.5px 7.5px 7.5px rgba(0, 0, 0, 0.5);
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    /* Clear floats after the columns */
+}
+
+footer {
+    margin-top: 1.5em;
+    position: absolute;
+    width: 100%;
+    min-width: 620px;
+    clear: left;
+    background: #404040;
+    font-family: 'Barrio', cursive;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a:link,
+footer a:visited {
+    background: #404040;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer a:hover,
+footer a:active {
+    background: #ff3300;
+}
+
+.assignment {
+    margin: auto;
+    padding: 10px;
+    max-width: 700px;
+}
+
+.download-button:link,
+.download-button:visited {
+    background: #404040;
+    color: white;
+    padding: 14px 25px;
+    font-family: 'Barrio', cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.download-button:hover,
+.download-button:active {
+    background-color: #ff3300;
+}
+
+.video-container {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tab {
+    margin-left: 3%;
+}
+
+.logo {
+    float: left;
+    max-height: 46px;
+}
+
+.contact-button {
+    position: absolute;
+    right: 0
+}
+
+.header {
+    font-family: 'Barrio', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.round {
+    border-radius: 30px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.centered {
+    margin: auto;
+    text-align: center;
+}
+
+.social {
+    border-radius: 50%;
+    width: 8%;
+    margin: 20px;
+    text-align: center;
+}
+
+.social:hover {
+    background-color: white;
+    opacity: 0.6;
+}
+
+hr {
+    border: 2px solid #404040;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.link {
+    font-family: 'Ubuntu', sans-serif;
+    color: #ff3300;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #404040;
+}
+
+.active {
+    background-color: #ff3300;
+}
+
+.sitemap {
+    margin-left: 50px;
+    font-size: 20px;
+    list-style-type: none;
+}
