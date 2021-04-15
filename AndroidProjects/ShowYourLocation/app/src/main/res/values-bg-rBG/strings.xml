@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS Локализатор</string>
+    <string name="permission_denied">Разрешението е отказано</string>
+    <string name="location_exception">Грешка, няма налична локация</string>
+    <string name="getting_location">Откриване…</string>
+    <string name="speed">" км/ч"</string>
+</resources>
