@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Photo App</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="not_registered">Not registered?</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="full_name">Full name</string>
+</resources>
